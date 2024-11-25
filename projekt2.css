@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    margin: 20px;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#jatekter {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px;
+}
+
+.mezo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mezo.foglalt {
+    pointer-events: none;
+}
+
+#eredmeny {
+    margin: 20px;
+    font-size: 20px;
+}
+
+#uj-jatek {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
